@@ -14,7 +14,7 @@ public class ElevatorProgram {
 
         try {
         	
-            BufferedReader br = new BufferedReader(new FileReader("/Lab4.1/ElevatorConfig.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("/ElevatorProgram/ElevatorConfig.txt"));
             try {
                 String line = br.readLine();
                 lenSim = Integer.parseInt(line);
